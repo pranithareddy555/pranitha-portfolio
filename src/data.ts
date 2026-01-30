@@ -2,12 +2,11 @@ export const profile = {
   name: "Pranitha",
   title: "Software Engineer | Data Science & ML",
   location: "Hyderabad, India",
-  phone: "+91 738-298-1967",
   email: "pranitha.reddy0497@gmail.com",
   linkedin: "https://www.linkedin.com/in/bojja-pranitha/",
   github: "https://github.com/pranithareddy555",
   summary:
-    "I build data-driven products and scalable APIs. Recently worked on security analytics dashboards (React + TypeScript), Spring Boot REST APIs, Kafka pipelines, and performance optimization.",
+    "Machine learning engineer who also enjoys building the software around models, including data prep, training, evaluation, and lightweight deployment. Built projects in recommendations, ad click prediction, healthcare classification, and smart grid security using Python, scikit-learn, and TensorFlow. Interested in developing practical, scalable ML systems with strong engineering fundamentals.",
   highlights: [
     
   ],
@@ -15,17 +14,15 @@ export const profile = {
 
 export const experience = [
   {
-    company: "SPI Cloud Systems LLC (Remote, USA)",
+    company: "SPI Cloud Systems (Remote, USA)",
     role: "Software Engineer",
-    dates: "Jul 2025 – Dec 2025",
+    dates: "Aug 2025 – Dec 2025",
     bullets: [
-      "Developed React (TypeScript) features for a security analytics dashboard: reusable components, form validation, role-based navigation.",
-      "Built Spring Boot REST APIs for alert triage, case management, and search workflows; documented endpoints using Swagger/OpenAPI.",
-      "Implemented Kafka producers/consumers for asynchronous alert ingestion with retries and idempotency across distributed services.",
-      "Improved API responsiveness with server-side pagination, query indexing, and Redis caching (40% p95 improvement for search endpoints).",
-      "Added 50+ unit tests (JUnit/Mockito) and enforced CI checks using GitHub Actions + Docker to reduce repeat defects.",
+      "Designed and built REST APIs in Python (Flask) with clear request/response contracts, error handling, and versioned endpoints.",
+      "Implemented a relational schema (PostgreSQL), optimized SQL queries with indexes, cutting average response time by 35%.",
+      "Added authentication/authorization (JWT + role checks), centralized logging, and basic rate limiting to harden the service.",
     ],
-    tech: ["React", "TypeScript", "Spring Boot", "Kafka", "Redis", "Docker", "GitHub Actions"],
+    tech: ["Python", "Flask", "PostgreSQL", "Rest APIs"],
   },
   {
     company: "The University of Texas at Dallas",
@@ -37,6 +34,23 @@ export const experience = [
 ];
 
 export const projects = [
+    {
+  name: "Recommendation Engine",
+  description:
+    "Built a collaborative filtering recommender using user item interactions and implicit feedback from clicks, carts, and purchases; improved precision at 10 by 18 percent versus a popularity baseline.",
+  tech: ["Python", "Pandas", "scikit-learn", "Collaborative Filtering"],
+  links: [{ label: "GitHub", href: "https://github.com/pranithareddy555" }],
+},
+ {
+  name: "Low-Data Breast Cancer Classification (TensorFlow)",
+  description:
+    "Trained reproducible TensorFlow classifiers on the Wisconsin Breast Cancer dataset using only 5% and 10% of training data, comparing baseline (class-layer) vs full TensorFlow models. Reached up to 93.15% accuracy with 10% data.",
+  tech: ["Python", "TensorFlow/Keras", "NumPy", "BatchNorm", "Dropout", "Adam"],
+  links: [
+    // Replace with your repo link if you upload it
+    { label: "GitHub", href: "https://github.com/pranithareddy555" },
+  ],
+},
   {
     name: "Ad Click Prediction",
     description:
@@ -49,18 +63,12 @@ export const projects = [
     description:
       "Detected abnormal operating modes that disrupt smart grid communications using multiple ML algorithms.",
     tech: ["Python", "ML", "Classification"],
-    links: [],
-  },
-  {
-  name: "Low-Data Breast Cancer Classification (TensorFlow)",
-  description:
-    "Trained reproducible TensorFlow classifiers on the Wisconsin Breast Cancer dataset using only 5% and 10% of training data, comparing baseline (class-layer) vs full TensorFlow models. Reached up to 93.15% accuracy with 10% data.",
-  tech: ["Python", "TensorFlow/Keras", "NumPy", "BatchNorm", "Dropout", "Adam"],
-  links: [
+   links: [
     // Replace with your repo link if you upload it
-    { label: "Code", href: "https://github.com/pranithareddy555" },
-  ],
-},
+    { label: "GitHub", href: "https://github.com/pranithareddy555" },
+   ],
+  },
+ 
 
 {
   name: "Breast Cancer Classification with SVM Kernels",
@@ -75,7 +83,7 @@ export const projects = [
     "NumPy",
   ],
   links: [
-    { label: "Code", href: "https://github.com/pranithareddy555" },
+    { label: "GitHub", href: "https://github.com/pranithareddy555" },
   ],
 },
 
@@ -86,7 +94,7 @@ export const projects = [
     "Studied how graph core number changes with edge probability (p) in random graphs using Python + NetworkX, and visualized k-core subgraphs and Core(p) trends across densities.",
   tech: ["Python", "NetworkX", "Matplotlib", "Graph Algorithms", "Random Graphs"],
   links: [
-    { label: "Code", href: "https://github.com/pranithareddy555" }
+    { label: "GitHub", href: "https://github.com/pranithareddy555" }
   ],
 },
 {
@@ -95,39 +103,12 @@ export const projects = [
     "Computed network reliability for a complete graph of 5 nodes based on triangle operability probability by enumerating all triangle states and validating connectivity (no isolated nodes).",
   tech: ["Python", "NetworkX", "itertools", "Matplotlib", "Probability"],
   links: [
-    { label: "Code", href: "https://github.com/pranithareddy555" }
+    { label: "GitHub", href: "https://github.com/pranithareddy555" }
   ],
 },
 
-  {
-    name: "Iris Species Detection",
-    description: "Classified iris flowers among three species using sepal/petal measurements.",
-    tech: ["Python", "Scikit-learn"],
-    links: [],
-  },
+  
 ];
-
-export const publications = [
- 
-  {
-    title: "Detection of Smart Grid Attacks Using Machine Learning Techniques",
-    venue: "Journal of Engineering Sciences",
-    date: "Apr 2022",
-    bullets: [
-      "Evaluated Perceptron, SVM, and KNN to classify smart grid data as attacked or secure.",
-      "Reported strong performance with KNN for malicious activity detection.",
-    ],
-  },
-];
-
-export const skills = {
-  Programming: ["Java", "Python", "C/C++", "C#", "SQL"],
-  Frontend: ["React", "TypeScript", "JavaScript", "HTML5", "CSS3"],
-  Backend: ["Spring Boot", "REST APIs", "Swagger/OpenAPI", "Kafka"],
-  Databases: ["MySQL", "PostgreSQL", "MongoDB", "Oracle"],
-  Tools: ["Git", "Docker", "Power BI", "Tableau", "VS Code", "Figma"],
-  Cloud: ["AWS", "Linux"],
-};
 
 export const education = [
   {
@@ -157,6 +138,39 @@ export const education = [
 
 
 ];
+
+export const publications = [
+ 
+  {
+    title: "Detection of Smart Grid Attacks Using Machine Learning Techniques",
+    venue: "Journal of Engineering Sciences",
+    
+    bullets: [
+      "Evaluated Perceptron, SVM, and KNN to classify smart grid data as attacked or secure.",
+      "Reported strong performance with KNN for malicious activity detection.",
+    ],
+  },
+];
+
+export const skills = {
+  Languages: ["Python", "SQL", "Java", "C/C++"],
+  MachineLearning: [
+    "scikit-learn",
+    "TensorFlow",
+    "Pandas",
+    "NumPy",
+    "Feature Engineering",
+    "Hyperparameter Tuning",
+    "Model Evaluation",
+  ],
+  Backend: ["Flask", "REST APIs", "JWT", "API Versioning", "Request Validation", "Error Handling"],
+  Databases: ["PostgreSQL", "MySQL", "MongoDB", "Oracle"],
+  DevOps: ["Docker", "Git", "GitHub Actions", "CI/CD", "Linux"],
+  TestingAndViz: ["pytest", "Matplotlib", "NetworkX"],
+};
+
+
+
 
 export const achievements = [
   "Won 1st Prize – IEEE Software Testing Hackathon (UT Dallas)",

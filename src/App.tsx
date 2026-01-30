@@ -240,10 +240,7 @@ export default function App() {
                     {profile.email}
                   </a>
                 </p>
-                <p>
-                  <span className="font-medium text-zinc-900 dark:text-white">Phone:</span>{" "}
-                  {profile.phone}
-                </p>
+                
               </div>
             </Card>
           </motion.div>
@@ -329,6 +326,29 @@ export default function App() {
         </div>
       </Section>
 
+ {/* EDUCATION */}
+      <Section id="education" title="Education">
+        <div className="grid gap-4 md:grid-cols-2">
+          {education.map((ed) => (
+            <Card key={`${ed.school}-${ed.degree}`}>
+              <div className="flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
+                <div>
+                  <h3 className="text-lg font-semibold">{ed.degree}</h3>
+                  <p className="text-sm text-zinc-600 dark:text-white/70">{ed.school}</p>
+                </div>
+                <p className="text-sm text-zinc-500 dark:text-white/60">{ed.dates}</p>
+              </div>
+
+              {ed.note ? (
+                <p className="mt-3 text-sm text-zinc-700 dark:text-white/80">{ed.note}</p>
+              ) : null}
+            </Card>
+          ))}
+        </div>
+      </Section>
+
+
+
       {/* PUBLICATIONS */}
       <Section id="publications" title="Publications">
         <div className="grid gap-4">
@@ -367,27 +387,7 @@ export default function App() {
         </div>
       </Section>
 
-      {/* EDUCATION */}
-      <Section id="education" title="Education">
-        <div className="grid gap-4 md:grid-cols-2">
-          {education.map((ed) => (
-            <Card key={`${ed.school}-${ed.degree}`}>
-              <div className="flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
-                <div>
-                  <h3 className="text-lg font-semibold">{ed.degree}</h3>
-                  <p className="text-sm text-zinc-600 dark:text-white/70">{ed.school}</p>
-                </div>
-                <p className="text-sm text-zinc-500 dark:text-white/60">{ed.dates}</p>
-              </div>
-
-              {ed.note ? (
-                <p className="mt-3 text-sm text-zinc-700 dark:text-white/80">{ed.note}</p>
-              ) : null}
-            </Card>
-          ))}
-        </div>
-      </Section>
-
+     
       {/* ACHIEVEMENTS */}
       <Section id="achievements" title="Awards & Achievements">
         <Card>
