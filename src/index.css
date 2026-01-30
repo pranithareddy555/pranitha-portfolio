@@ -1,0 +1,28 @@
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+/* --- Portfolio blue bubble background helpers --- */
+@keyframes floaty {
+  0% { transform: translate3d(0, 0, 0); }
+  50% { transform: translate3d(18px, -22px, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+@keyframes floaty2 {
+  0% { transform: translate3d(0, 0, 0); }
+  50% { transform: translate3d(-16px, 18px, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+.bubble {
+  filter: blur(60px);
+  opacity: 0.35;
+  animation: floaty 10s ease-in-out infinite;
+}
+
+.bubble2 {
+  filter: blur(70px);
+  opacity: 0.28;
+  animation: floaty2 12s ease-in-out infinite;
+}
