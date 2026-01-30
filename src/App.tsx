@@ -350,26 +350,26 @@ export default function App() {
 
 
       {/* PUBLICATIONS */}
-      <Section id="publications" title="Publications">
-        <div className="grid gap-4">
-          {publications.map((pub) => (
-            <Card key={pub.title}>
-              <div className="flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
-                <h3 className="text-lg font-semibold">{pub.title}</h3>
-                <p className="text-sm text-zinc-500 dark:text-white/60">{pub.date}</p>
-              </div>
-
-              <p className="mt-1 text-sm text-zinc-600 dark:text-white/70">{pub.venue}</p>
-
-              <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-zinc-700 dark:text-white/80">
-                {pub.bullets.map((b) => (
-                  <li key={b}>{b}</li>
-                ))}
-              </ul>
-            </Card>
-          ))}
+<Section id="publications" title="Publications">
+  <div className="grid gap-4">
+    {publications.map((pub) => (
+      <Card key={pub.title}>
+        <div className="flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
+          <h3 className="text-lg font-semibold">{pub.title}</h3>
         </div>
-      </Section>
+
+        <p className="mt-1 text-sm text-zinc-600 dark:text-white/70">{pub.venue}</p>
+
+        <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-zinc-700 dark:text-white/80">
+          {pub.bullets.map((b) => (
+            <li key={b}>{b}</li>
+          ))}
+        </ul>
+      </Card>
+    ))}
+  </div>
+</Section>
+
 
       {/* SKILLS */}
       <Section id="skills" title="Skills">
