@@ -20,6 +20,45 @@ export const experience = [
     bullets: ["Mentored 150+ CS students in academic tasks, collaborating with professors."],
     tech: ["Java", "DSA", "Mentoring"],
   },
+{
+  title: "Machine Learning Intern",
+  company: "The Sparks Foundation",
+  location: "Singapore",
+  date: "Jun 2021 – Jul 2021",
+  description: "Machine Learning, Pandas, NumPy, Scikit-learn, Matplotlib",
+  points: [
+    "Increased prediction accuracy by 25% with student performance models based on academic efforts.",
+    "Enhanced recommendation relevance by 35% with a content-based recommender system.",
+    "Optimized algorithm selection by 20% with an A/B testing framework.",
+  ],
+  tech: ["Machine Learning", "Pandas", "NumPy", "Scikit-learn", "Matplotlib"],
+},
+{
+  title: "Data Science Intern",
+  company: "TCR Innovations",
+  location: "Mumbai, India",
+  date: "Jun 2021 – Aug 2021",
+  description: "Python, Pandas, NumPy, Scikit-learn, Flask",
+  points: [
+    "Developed a predictive model to determine ad click probability based on user features.",
+    "Improved data processing efficiency by 35% with Logistic Regression, Naive Bayes, and Decision Tree models.",
+    "Conducted thorough EDA to understand user demographics and improved targeting accuracy by 40%.",
+  ],
+  tech: ["Python", "Pandas", "NumPy", "Scikit-learn", "Flask"],
+},
+{
+  title: "Data Science Intern",
+  company: "Springfest, IIT Kharagpur (Ethical Edufabrica Pvt. Ltd.)",
+  location: "New Delhi, India",
+  date: "Oct 2020",
+  description: "Python, Pandas, NumPy, Scikit-learn, Matplotlib",
+  points: [
+    "Designed an Iris Species Detection project, achieving 97% accuracy using a linear model.",
+  ],
+  tech: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib"],
+},
+
+  
 ];
 
 export const projects = [
