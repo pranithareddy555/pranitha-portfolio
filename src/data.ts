@@ -16,7 +16,7 @@ export const experience = [
   {
     company: "The University of Texas at Dallas",
     role: "Graduate Student Assistant (Computer Science Department)",
-    dates: "Aug 2023 – May 2024",
+    dates: "Aug 2023 – May 2025",
     bullets: ["Mentored 150+ CS students in academic tasks, collaborating with professors."],
     tech: ["Java", "DSA", "Mentoring"],
   },
