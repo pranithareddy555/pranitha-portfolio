@@ -14,17 +14,6 @@ export const profile = {
 
 export const experience = [
   {
-    company: "SPI Cloud Systems (Remote, USA)",
-    role: "Software Engineer",
-    dates: "Aug 2025 – Dec 2025",
-    bullets: [
-      "Designed and built REST APIs in Python (Flask) with clear request/response contracts, error handling, and versioned endpoints.",
-      "Implemented a relational schema (PostgreSQL), optimized SQL queries with indexes, cutting average response time by 35%.",
-      "Added authentication/authorization (JWT + role checks), centralized logging, and basic rate limiting to harden the service.",
-    ],
-    tech: ["Python", "Flask", "PostgreSQL", "Rest APIs"],
-  },
-  {
     company: "The University of Texas at Dallas",
     role: "Graduate Student Assistant (Computer Science Department)",
     dates: "Aug 2023 – May 2024",
