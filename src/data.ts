@@ -21,8 +21,9 @@ export const experience = [
     tech: ["Java", "DSA", "Mentoring"],
   },
 {
-  title: "Machine Learning Intern",
+  
   company: "The Sparks Foundation",
+  role: "Machine Learning Intern",
   location: "Singapore",
   date: "Jun 2021 – Jul 2021",
   description: "Machine Learning, Pandas, NumPy, Scikit-learn, Matplotlib",
@@ -34,8 +35,8 @@ export const experience = [
   tech: ["Machine Learning", "Pandas", "NumPy", "Scikit-learn", "Matplotlib"],
 },
 {
-  title: "Data Science Intern",
   company: "TCR Innovations",
+  role: "Data Science Intern",
   location: "Mumbai, India",
   date: "Jun 2021 – Aug 2021",
   description: "Python, Pandas, NumPy, Scikit-learn, Flask",
@@ -47,8 +48,8 @@ export const experience = [
   tech: ["Python", "Pandas", "NumPy", "Scikit-learn", "Flask"],
 },
 {
-  title: "Data Science Intern",
   company: "Springfest, IIT Kharagpur (Ethical Edufabrica Pvt. Ltd.)",
+  role: "Data Science Intern",
   location: "New Delhi, India",
   date: "Oct 2020",
   description: "Python, Pandas, NumPy, Scikit-learn, Matplotlib",
