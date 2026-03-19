@@ -63,13 +63,7 @@ export const experience = [
 ];
 
 export const projects = [
-    {
-  name: "Recommendation Engine",
-  description:
-    "Built a collaborative filtering recommender using user item interactions and implicit feedback from clicks, carts, and purchases; improved precision at 10 by 18 percent versus a popularity baseline.",
-  tech: ["Python", "Pandas", "scikit-learn", "Collaborative Filtering"],
-  links: [{ label: "GitHub", href: "https://github.com/pranithareddy555" }],
-},
+  
  {
   name: "Low-Data Breast Cancer Classification (TensorFlow)",
   description:
